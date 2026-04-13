@@ -69,16 +69,17 @@ The skill will:
 ## Prompt Structure
 
 ```
-0–2s  [STARTING STATE]    Particles form initial shape
-2–5s  [SHAPE 1 → SHAPE 2] First feature transition
-5–9s  [SHAPE 2 → SHAPE 3] Core value transformation
-9–12s [SHAPE 3 → PRE-LOGO] Logo hint emerges
-12–13s [COLLAPSE]          Silent beat, inward collapse
-13–15s [LOGO]              Brand reveal
+0–2s  [STATE A → STATE B]   Chaos snaps into first form
+2–4s  [STATE B → STATE C]   Melts/morphs into second form
+4–7s  [STATE C → STATE D]   Wraps into complex 3D structure
+7–10s [STATE D → STATE E]   Flattens into dynamic 2D pattern
+10–12s [STATE E → PRE-LOGO] Snaps into logo hint
+12–13s [HOLD]               Silent beat
+13–15s [LOGO]               Brand reveal
 
-+ Sound Design              Audio atmosphere description
++ Sound Design              Audio arc referencing visual moments
 + Music                     Background music style & tempo
-+ Voiceover (optional)      Product intro script (if requested)
++ Voiceover (inline)        Embedded in timeline stages (if requested)
 ```
 
 ## Dreamina CLI Integration

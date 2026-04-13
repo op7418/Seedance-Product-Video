@@ -31,38 +31,46 @@ Select the best-fit visual style based on product positioning:
 ## Strict Rules
 
 1. **Character limit**: Final English prompt must be 1000–1500 characters. NEVER exceed 2000 characters.
-2. **Global camera constraint**: Begin with `No cuts. Locked-off static center frame, no camera movement. All motion occurs within the subject.`
-3. **Morphing transitions**: Objects must NEVER appear or disappear from nothing. Use vivid transition verbs: `compresses into`, `snaps magnetically`, `melts into`, `folds into`, `fractures into`, `spirals into`.
-4. **Timestamp structure**: Use `0-2s [NAME]: description` format. Divide 15 seconds into 5–6 continuous morphing stages.
-5. **12–13s stillness**: Design an extreme collapse toward center and one beat of silence (`holds for one silent beat`).
-6. **Sound design**: One paragraph summarizing the overall audio evolution. NEVER write per-second sound effects.
-7. **Music description**: After Sound Design, add a `Music:` section describing the background music style, tempo, instruments, and emotional arc that matches the chosen aesthetic (e.g., minimal electronic, ambient piano, cinematic orchestral). Keep it to 1-2 sentences.
-8. **Voiceover (口播)**: If the user requests voiceover, add a `Voiceover:` section with a concise script (2-3 sentences max) that introduces the product's core value proposition. The voiceover should be timed to the visual sequence — typically starting at 2-5s and ending before the 12s collapse. Specify language and tone (e.g., calm, confident, conversational).
+2. **Global camera constraint**: Begin with `Locked-off static center frame, no cuts, no camera movement. All motion is smooth and mathematical.`
+3. **Morphing transitions**: Objects must NEVER appear or disappear from nothing. Every shape must morph from the previous one. Use vivid, specific transition verbs: `snaps magnetically into`, `melts together into`, `wraps around itself into`, `flattens instantly into`, `compresses inward into`, `fractures into`, `spirals into`, `dissolves into`.
+4. **Timestamp structure**: Use `0–2s [NAME → NAME]:` format. Divide 15 seconds into **6 stages**, each lasting **2–3 seconds**. This ensures at least **5 distinct shape transitions** — the visual density must feel rapid and dynamic, never slow or conservative.
+5. **Rhythm variation**: Vary the duration of each stage (e.g., 2s, 2s, 3s, 3s, 3s, 2s). Do NOT use uniform 3-second blocks. Faster transitions (2s) create energy; slightly longer ones (3s) allow complex morphs to breathe.
+6. **12–13s stillness**: Design one beat of silence (`holds for one silent beat`) before the final logo reveal.
+7. **Sound design**: One paragraph describing the audio arc across the full sequence. Reference specific visual moments (e.g., "crisp mechanical clicks for the grid snap, smooth liquid swooshes for the fluid morph"). End with the logo sound.
+8. **Music description**: After Sound Design, add a `Music:` section — 1-2 sentences describing background music style, tempo, instruments, and emotional arc matching the aesthetic.
+9. **Voiceover (口播)**: If the user requests voiceover, embed voiceover lines **directly inside the timeline stages** where they occur (e.g., `Voiceover: "Out of noise..."`), NOT as a separate section. Keep to 2-3 short phrases total, timed to key visual moments. Specify voice tone in the first occurrence (e.g., "Calm, crisp male voice").
 
 ## Workflow
 
 1. **Select style**: Choose A/B/C/D from the Aesthetic Matrix based on product characteristics.
-2. **Extract concepts**: Analyze product description, convert core features into visual forms (e.g., AI summarization = scattered dots fusing into a cube; ecosystem linking = interlocking geometries).
-3. **Choreograph sequence**: Incorporate Logo structure, ensure Logo prototype appears at 9–12s.
-4. **Apply template**: Fill chosen visual keywords into the Output Template below.
+2. **Extract concepts**: Analyze product description, extract 4-5 core features/values. Convert each into a distinct visual form (e.g., AI summarization = scattered particles snapping into a grid; data flow = fluid ribbon; intelligence = wireframe sphere; speed = spinning vortex; precision = dot matrix).
+3. **Choreograph sequence**: Map each visual form to a timeline stage. Ensure each transition uses a DIFFERENT type of motion (snap, melt, wrap, flatten, compress). Logo prototype must emerge at 10–12s.
+4. **Apply template**: Fill chosen visual keywords into the Output Template below. Verify at least 5 shape transitions exist.
 
 ## Output Template
 
 ```
 Ultra-sleek minimal motion design sequence. [Background description]. [Material & lighting description]. [Overall style]. Locked-off static center frame, no cuts, no camera movement. All motion is smooth and mathematical.
 
-0–2s [STARTING STATE]: [Particles or basic elements forming the first logical shape]
-2–5s [SHAPE 1 → SHAPE 2]: [Smooth morphological transition representing product's first feature]
-5–9s [SHAPE 2 → SHAPE 3]: [Transformation into more complex structure representing product's core value]
-9–12s [SHAPE 3 → PRE-LOGO]: [Structure snapping into a shape that visually hints at the user's logo]
-12–13s [COLLAPSE]: The entire structure holds for one silent beat, then rapidly collapses inward, compressing into a single dense point.
-13–15s [LOGO]: The point expands seamlessly into the minimalist brand logo: "[Brand Name]". Typography is clean sans-serif.
+0–2s [STATE A → STATE B]: [Chaotic/scattered elements snap or coalesce into the first organized shape. Use a dramatic, instant transition verb.]
+2–4s [STATE B → STATE C]: [First shape compresses/melts/morphs into a completely different form representing a core feature. Voiceover (if requested): "..." ]
+4–7s [STATE C → STATE D]: [Second form wraps/weaves/transforms into a more complex 3D or geometric structure representing the product's main value.]
+7–10s [STATE D → STATE E]: [Complex structure flattens/spins/fractures into a dynamic 2D pattern or vortex. Voiceover (if requested): "..."]
+10–12s [STATE E → PRE-LOGO]: [Pattern snaps into a precise arrangement that visually hints at the logo structure.]
+12–13s [HOLD]: The structure holds for one silent beat.
+13–15s [LOGO]: Morphs seamlessly into the minimalist brand logo: "[Brand Name]". Typography is clean sans-serif. [Voiceover (if requested): "[Brand Name]."]
 
-Sound Design: [1-2 sentences describing audio atmosphere matching the chosen style].
+Sound Design: [1-2 sentences describing the audio arc across the sequence. Reference specific visual moments — e.g., "crisp mechanical clicks for the grid snap, smooth liquid swooshes for the fluid morph, ending in silence with a single soft piano note."]
 
-Music: [1-2 sentences describing background music style, tempo, instruments, and emotional arc matching the aesthetic].
-
-Voiceover (if requested): "[Concise 2-3 sentence script timed to 2–11s, introducing the product's core value. Specify language and tone.]"
+Music: [1-2 sentences describing background music style, tempo, instruments, and emotional arc matching the aesthetic.]
 
 Style: [Chosen style references]. Mood: [3-4 mood keywords].
 ```
+
+### Key Principles for the Template
+
+- **6 stages, 5 transitions**: Every stage must morph INTO the next. No stage is static except the 12-13s hold.
+- **Each transition uses a DIFFERENT motion type**: snap, melt, wrap, flatten, compress, dissolve — never repeat the same verb twice.
+- **Voiceover is inline**: If voiceover is requested, embed short phrases directly in the timeline stages (typically at 2-4s and 7-10s), not as a separate block.
+- **Vary segment duration**: Mix 2s and 3s segments. The rhythm should feel musical, not mechanical.
+- **Name states concretely**: Use descriptive names like `CHAOS → GRID`, `FLUID → SPHERE`, not generic `SHAPE 1 → SHAPE 2`.
