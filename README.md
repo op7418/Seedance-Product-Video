@@ -75,6 +75,10 @@ The skill will:
 9–12s [SHAPE 3 → PRE-LOGO] Logo hint emerges
 12–13s [COLLAPSE]          Silent beat, inward collapse
 13–15s [LOGO]              Brand reveal
+
++ Sound Design              Audio atmosphere description
++ Music                     Background music style & tempo
++ Voiceover (optional)      Product intro script (if requested)
 ```
 
 ## Dreamina CLI Integration
@@ -93,6 +97,10 @@ seedance-prompt/
 └── references/
     └── prompt-system.md          # Prompt system: aesthetic matrix + rules + template
 ```
+
+## Credits
+
+Prompt engineering inspiration from [@oggii_0](https://x.com/oggii_0/status/2041392542659584302).
 
 ## License
 

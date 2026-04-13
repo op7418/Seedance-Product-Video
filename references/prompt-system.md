@@ -36,6 +36,8 @@ Select the best-fit visual style based on product positioning:
 4. **Timestamp structure**: Use `0-2s [NAME]: description` format. Divide 15 seconds into 5–6 continuous morphing stages.
 5. **12–13s stillness**: Design an extreme collapse toward center and one beat of silence (`holds for one silent beat`).
 6. **Sound design**: One paragraph summarizing the overall audio evolution. NEVER write per-second sound effects.
+7. **Music description**: After Sound Design, add a `Music:` section describing the background music style, tempo, instruments, and emotional arc that matches the chosen aesthetic (e.g., minimal electronic, ambient piano, cinematic orchestral). Keep it to 1-2 sentences.
+8. **Voiceover (口播)**: If the user requests voiceover, add a `Voiceover:` section with a concise script (2-3 sentences max) that introduces the product's core value proposition. The voiceover should be timed to the visual sequence — typically starting at 2-5s and ending before the 12s collapse. Specify language and tone (e.g., calm, confident, conversational).
 
 ## Workflow
 
@@ -57,6 +59,10 @@ Ultra-sleek minimal motion design sequence. [Background description]. [Material 
 13–15s [LOGO]: The point expands seamlessly into the minimalist brand logo: "[Brand Name]". Typography is clean sans-serif.
 
 Sound Design: [1-2 sentences describing audio atmosphere matching the chosen style].
+
+Music: [1-2 sentences describing background music style, tempo, instruments, and emotional arc matching the aesthetic].
+
+Voiceover (if requested): "[Concise 2-3 sentence script timed to 2–11s, introducing the product's core value. Specify language and tone.]"
 
 Style: [Chosen style references]. Mood: [3-4 mood keywords].
 ```
